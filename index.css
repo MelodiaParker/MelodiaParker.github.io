@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: gainsboro;
+    background-color: lightgray;
     color: black;
     font-family: Arial, sans-serif;
     
@@ -98,6 +98,6 @@ li {
     font-style: normal;
     font-weight: bold;
 }
-p {
+.project-tile {
    text-align: justify;
 }
