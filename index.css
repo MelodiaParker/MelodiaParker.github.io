@@ -98,3 +98,6 @@ li {
     font-style: normal;
     font-weight: bold;
 }
+p {
+   text-align: justify;
+}
