@@ -1,44 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Melodía J. Parker's GitHub Portfolio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Melodía J. Parker's GitHub Portfolio</title>
-        <link rel="stylesheet" href="index.css">
+        <link href="index.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">       
     </head>
     <body>
-        <main>
-            <header>
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="#welcome" title="Welcome">Welcome</a></li>
-                        <li><a href="#projects" title="Projects">Projects</a></li>
-                        <li><a href="#profile" title="Profile">Profile</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <section id="welcome">
-                <h1>Welcome to my GitHub Portfolio!</h1>
-                <p>Hello, my name is Melodía J. Parker. I'm a writer, yogi, coder, gamer, and motivational speaker.</p>
-                <p>This page is a listing of all the repositories published in my GitHub.</p>
-            </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <p class="project-tile">These repositories were created for the freeCodeCamp's Responsive Web Design Certification. All links open in new tabs.
-                    <ul>
-                        <li><a href="https://github.com/MelodiaParker/SurveyForm" target="_blank" title="Survey Form" id="project-link">Survey Form</a></li>
-                        <li><a href="https://github.com/MelodiaParker/TributePage" target="_blank" title="Tribute Page" id="project-link">Tribute Page</a></li>
-                        <li><a href="https://github.com/MelodiaParker/TechnicalDocumentation" target="_blank" title="Technical Documentation" id="project-link">Technical Documentation</a></li>
-                        <li><a href="https://github.com/MelodiaParker/ProductLanding" target="_blank" title="Product Landing Page" id="project-link">Product Landing Page</a></li>
-                        <li><a href="https://github.com/MelodiaParker/PersonalPortfolio" target="_blank" title="Product Landing Page" id="project-link">Personal Portfolio</a></li>
-                </p>
-            </section>
-            <section id="profile">
-                <h2>Profile</h2>
-                <p>
-                    For more information, please visit my <a href="https://MelodiaParker.com" target="_blank" id="profile-link" title="site">site</a> and follow me on <a href="https://mastodon.social/@MelodiaParker" target="_blank" id="profile-link" title="Mastodon">Mastodon</a> and <a href="https://youtube.com/@MelodiaParker" target="_blank" id="profile-link" title="YouTube">YouTube</a>.
-                </p>
-            </section>
-        </main>
+        <h1>Melodía J. Parker's GitHub Portfolio</h1>
+            <main>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Make your selection:</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <h2>Responsive Web Design Projects for freeCodeCamp</h2>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+                            <hr>
+                            <h2>Legacy JavaScript Projects for freeCodeCamp</h2>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>                    
+                        </div>
+                </div>
+            </main>
+        <script src="menu.js"></script>
     </body>
 </html>
